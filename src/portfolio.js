@@ -49,18 +49,6 @@ https://fontawesome.com/icons?d=gallery */
 const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
-//    {
-//      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-//      progressPercentage: "90%"  //Insert relative proficiency in percentage
-//    },
-//    {
-//      Stack: "Backend",
-//      progressPercentage: "70%"
-//    },
-//    {
-//      Stack: "Programming",
-//      progressPercentage: "60%"
-//    }
   ]
 };
 
