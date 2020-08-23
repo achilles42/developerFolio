@@ -7,113 +7,60 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "FoobarTech",
+  title: "Hi all, I'm Praveen Shukla",
+  subTitle: emoji("A passionate Site Reliability Engineer / DevOps / Infrastructure Platform Engineer 🚀 having an experience of building platform tools to enhance developer productivity"),
+  resumeLink: "https://docs.google.com/document/d/1P14yuPEInKaP4Mrg7wYpiCA_X-Csi18GQY7ptsAyp80/edit?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
-  // Instagram and Twitter are also supported in the links!
+  github: "https://github.com/achilles42",
+  linkedin: "https://www.linkedin.com/in/praveen-shukla-66b52b76/",
+  gmail: "praveen.shukla.c42@gmail.com",
+  medium: "https://medium.com/@chaoskid",
+  stackoverflow: "https://stackoverflow.com/users/3719105/praveen-shukla",
+  twitter: "https://twitter.com/_praveenshukla"
 };
 
 // Your Skills Section
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SRE / DevOps / Infrastructure platform Engineer",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop various tools to enhance developer productivity"),
+    emoji("⚡ Golang, Ruby On Rails, Kubernetes, Prometheus, Cortex, Grafana"),
+    emoji("⚡ Terraform, CI/CD, Git, Shell, Docker, Chef, Helm"),
+    emoji("⚡ Redis, PostgreSQL, GCP, AWS, TICK stack")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
-    {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+//    {
+//      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+//      progressPercentage: "90%"  //Insert relative proficiency in percentage
+//    },
+//    {
+//      Stack: "Backend",
+//      progressPercentage: "70%"
+//    },
+//    {
+//      Stack: "Programming",
+//      progressPercentage: "60%"
+//    }
   ]
 };
 
@@ -124,29 +71,27 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Tech Lead",
+      company: "Gojek",
+      companylogo: require("./assets/images/gojek.png"),
+      date: "Dec 2018 – Present",
+      desc: "Built a Prometheus based central monitoring and alerting platform from scratch for the entire organization @ Gojek. Replace the legacy TICK stack based monitoring and alerting with a new monitoring platform that is serving 2 million metrics ingestion per second across 600 microservices and Kube clusters.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Product Engineer",
+      company: "Gojek",
+      companylogo: require("./assets/images/gojek.png"),
+      date: "June 2016 – Nov 2018",
+      desc: "Enabling scale @ Gojek as part of the Infrastructure platform/SRE team, handling day to day operations, managing logging/monitoring and existing infra, handling upgrades, adding newer services, R&D for newer infrastructure, participating in on-call rotations to maintain uptime of our systems."
     },
     {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Product Engineer",
+      company: "Gojek",
+      companylogo: require("./assets/images/gojek.png"),
+      date: "Sept 2015 – June 2016",
+      desc: "Extracted out the core functionality of Gojek i.e Transport order management system from a monolith system and built a microservice out of it. I was part of the team from inception to release. The complete transport OMS (JRuby+Rails) which scaled from Gojek’s 10K customers to 45 million customers. Also implemented the CI/CD, Infra Provisioning, Performance Testing."
     },
   ]
 };
@@ -156,63 +101,8 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
-};
-
-
-// Some Big Projects You have worked with your company
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
-  ]
-};
-
-// Your Achievement Section Include Your Certification Talks and More
-
-const achievementSection = {
-
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
-  achivementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
-  ]
+  githubUserName: "achilles42", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 // Blogs Section
@@ -220,60 +110,83 @@ const achievementSection = {
 const blogSection = {
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle: "With Love for Developing cool stuff, I love to share what I have learnt.",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://blog.gojekengineering.com/service-networking-in-a-hybrid-infrastructure-30030c71f6eb",
+      title: "Service Networking in a Hybrid Infrastructure",
+      description: "In the land of the Super App, we are working on migrating all our services and workload to Containers. We are primarily on GKE and GCE. While migrating to Containers, we faced some challenges running high throughput services. "
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://medium.com/@chaoskid/system-design-introduction-1e81595d1dd8",
+      title: "System Design Introduction",
+      description: "Ask right sets of questions when thinking about systems problem statement"
+    },
+    {
+      url: "https://medium.com/praveen-shukl/lets-get-started-with-terraform-6dcff60457bc",
+      title: "Lets Get Started with Terraform",
+      description: "Terraform is an open source tool that allows you to define infrastructure for a variety of cloud providers (e.g. AWS, Azure, Google Cloud, DigitalOcean, etc) using a simple, declarative programming language and to deploy and manage that infrastructure using a few CLI commands."
+    },
+    {
+      url: "https://medium.com/praveen-shukl/test-driven-infrastructure-with-chef-8bbdabfe7cf",
+      title: "Test Driven infrastructure with chef",
+      description: "Coming from the development side of the product building to DevOps expecting every line of code should have descent amount of test around it. But Traditionally, much of infrastructure is managed."
+    },
+    {
+      url: "https://medium.com/praveen-shukl/crystal-for-rubyists-d0e6f692b6df",
+      title: "Crystal for Rubyists",
+      description: "Although Crystal closely resembles ruby in terms of syntax, its a different language, not another ruby implementation. The language is statically typed and compiled making it completely different from ruby."
+    },
+    {
+      url: "https://medium.com/praveen-shukl/a-journy-from-ruby-to-golang-215e8f39d573",
+      title: "A Journy From Ruby To Golang",
+      description: "Golang and Ruby both are pure object oriented languages but the way they achieve OO is totally different. So let’s discuss how both languages are used in programming."
+    },
+    {
+      url: "https://medium.com/praveen-shukl/its-about-time-56061fbda046",
+      title: "It’s About Time",
+      description: "It is highly important for the application which is used by different users to maintain the date and time based on geographical location in a meaningful way. For example if a user from India enters some data into the database with its own local timestamp at 5:30 a.m and at the same time a user from U.S.A want to see the data, at that time he will feel very weird because that time which is entered in the database has not arrived yet."
+    },
+    {
+      url: "https://medium.com/praveen-shukl/the-strategy-pattern-536eb6bc0282",
+      title: "The Strategy Pattern",
+      description: "Strategy Pattern is one of the patterns from the behavioural category of design patterns. So we’ll start with the standard dictionary meaning of strategy after that we’ll see how it is implemented in real life scenario and then we come to practical software development code scenario to understand where exactly it is used."
     }
   ]
 };
 
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ]
-};
-
+//const talkSection = {
+//  title: "",
+//  subtitle: emoji(""),
+//  talks: [
+//  ]
+//};
+//
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji(""),
+  subtitle: "",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: [""]
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+//  number: "+92-3243454077",
+  email_address: "praveen.shukla.c42@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-  
+  userName : "_praveenshukla"//Replace "twitter" with your twitter username without @
+
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, workExperiences, openSource, blogSection, podcastSection, contactInfo , twitterDetails};
