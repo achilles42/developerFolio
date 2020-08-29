@@ -59,27 +59,20 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Tech Lead",
+      role: "Senior Software Engineer",
       company: "Gojek",
       companylogo: require("./assets/images/gojek.png"),
-      date: "Dec 2018 – Present",
-      desc: "Built a Prometheus based central monitoring and alerting platform from scratch for the entire organization @ Gojek. Replace the legacy TICK stack based monitoring and alerting with a new monitoring platform that is serving 2 million metrics ingestion per second across 600 microservices and Kube clusters.",
+      date: "Sept 2015 – Present",
+      desc: "",
       descBullets: [
       ]
     },
     {
       role: "Product Engineer",
-      company: "Gojek",
-      companylogo: require("./assets/images/gojek.png"),
-      date: "June 2016 – Nov 2018",
-      desc: "Enabling scale @ Gojek as part of the Infrastructure platform/SRE team, handling day to day operations, managing logging/monitoring and existing infra, handling upgrades, adding newer services, R&D for newer infrastructure, participating in on-call rotations to maintain uptime of our systems."
-    },
-    {
-      role: "Product Engineer",
-      company: "Gojek",
-      companylogo: require("./assets/images/gojek.png"),
-      date: "Sept 2015 – June 2016",
-      desc: "Extracted out the core functionality of Gojek i.e Transport order management system from a monolith system and built a microservice out of it. I was part of the team from inception to release. The complete transport OMS (JRuby+Rails) which scaled from Gojek’s 10K customers to 45 million customers. Also implemented the CI/CD, Infra Provisioning, Performance Testing."
+      company: "C42 Enginering",
+      companylogo: require("./assets/images/c42_logo.png"),
+      date: "June 2015 – Oct 2015",
+      desc: ""
     },
   ]
 };
