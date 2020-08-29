@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.252f58c4.chunk.css",
-    "main.js": "/static/js/main.db8dcc12.chunk.js",
-    "main.js.map": "/static/js/main.db8dcc12.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e5b659de.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e5b659de.js.map",
-    "static/js/2.2aa2f5af.chunk.js": "/static/js/2.2aa2f5af.chunk.js",
-    "static/js/2.2aa2f5af.chunk.js.map": "/static/js/2.2aa2f5af.chunk.js.map",
+    "main.js": "/static/js/main.82f64c38.chunk.js",
+    "main.js.map": "/static/js/main.82f64c38.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0d9a3360.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0d9a3360.js.map",
+    "static/js/2.18503b87.chunk.js": "/static/js/2.18503b87.chunk.js",
+    "static/js/2.18503b87.chunk.js.map": "/static/js/2.18503b87.chunk.js.map",
     "static/css/3.c7b31c95.chunk.css": "/static/css/3.c7b31c95.chunk.css",
-    "static/js/3.8a3a7250.chunk.js": "/static/js/3.8a3a7250.chunk.js",
-    "static/js/3.8a3a7250.chunk.js.map": "/static/js/3.8a3a7250.chunk.js.map",
+    "static/js/3.c7601fa3.chunk.js": "/static/js/3.c7601fa3.chunk.js",
+    "static/js/3.c7601fa3.chunk.js.map": "/static/js/3.c7601fa3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ba53545aae5e784dae112e64e9cba8d2.js": "/precache-manifest.ba53545aae5e784dae112e64e9cba8d2.js",
+    "precache-manifest.0c1069cb6799e131a7a1aab61eba2383.js": "/precache-manifest.0c1069cb6799e131a7a1aab61eba2383.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.c7b31c95.chunk.css.map": "/static/css/3.c7b31c95.chunk.css.map",
     "static/css/main.252f58c4.chunk.css.map": "/static/css/main.252f58c4.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/c42_logo.png": "/static/media/c42_logo.f10101e1.png",
     "static/media/contactMail.webp": "/static/media/contactMail.68e84138.webp",
     "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
     "static/media/gojek.png": "/static/media/gojek.8b0f69a8.png",
@@ -23,9 +24,9 @@
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5b659de.js",
-    "static/js/2.2aa2f5af.chunk.js",
+    "static/js/runtime-main.0d9a3360.js",
+    "static/js/2.18503b87.chunk.js",
     "static/css/main.252f58c4.chunk.css",
-    "static/js/main.db8dcc12.chunk.js"
+    "static/js/main.82f64c38.chunk.js"
   ]
 }
