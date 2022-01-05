@@ -19,7 +19,7 @@ const socialMediaLinks = {
 
   github: "https://github.com/achilles42",
   linkedin: "https://www.linkedin.com/in/praveen-shukla-66b52b76/",
-  gmail: "praveen.shukla.c42@gmail.com",
+  gmail: "praveen@chaostech.in",
   medium: "https://medium.com/@chaoskid",
   stackoverflow: "https://stackoverflow.com/users/3719105/praveen-shukla",
   twitter: "https://twitter.com/_praveenshukla"
@@ -160,7 +160,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
 //  number: "+92-3243454077",
-  email_address: "praveen.shukla.c42@gmail.com"
+  email_address: "praveen@chaostech.in"
 };
 
 //Twitter Section
